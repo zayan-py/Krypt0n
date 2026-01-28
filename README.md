@@ -134,5 +134,5 @@ This tool is provided for educational and legitimate utility purposes only. The 
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/KiIlerDrift">KillerDrift</a> & Contributors
+  Made with ❤️ by <a href="https://github.com/zayan-py">Zayan</a> & Contributors
 </p>
