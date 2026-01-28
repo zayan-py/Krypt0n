@@ -1,4 +1,8 @@
-<h1 align="center">Krypt0n</h1>
+<h1 align="center">Krypton</h1>
+
+<p align="center">
+  <b>A General-Purpose Command-Line Utility Toolkit</b>
+</p>
 
 <p align="center">
   <a href="https://github.com/KiIlerDrift">
@@ -8,8 +12,9 @@
     <img src="https://flat.badgen.net/badge/License/MIT/blue" alt="License">
   </a>
   <a href="https://github.com/KiIlerDrift/Krypt0n/releases">
-    <img src="https://flat.badgen.net/badge/Version/1.02/blue" alt="Version">
+    <img src="https://flat.badgen.net/badge/Version/2.0.0/blue" alt="Version">
   </a>
+  <img src="https://flat.badgen.net/badge/Python/3.9+/green" alt="Python">
 </p>
 
 <p align="center">
@@ -24,42 +29,110 @@
   </a>
 </p>
 
-Multi-Tool for Discord and other services.
+---
 
-![Preview](https://media.discordapp.net/attachments/706938988266782741/1181952746501460028/image.png?ex=6582ee46&is=65707946&hm=35116a1380b2064164b9809a507d0a618df6e7c87c089238f30f3d16a4e29e01&=&format=webp&quality=lossless&width=1252&height=602)
+A collection of safe, ethical command-line utilities for everyday tasks. Krypton provides a beautiful terminal interface for common operations like DNS lookups, password generation, file compression, and more.
 
-## Setup Instructions
+## ✨ Features
 
-### 1. Install Python
+| Utility | Description |
+|---------|-------------|
+| 🔍 **DNS Lookup** | Look up DNS records using multiple methods (socket, dnspython) |
+| 📱 **QR Code Generator** | Generate customizable QR codes from text or URLs |
+| 🌐 **IP Pinger** | Check if hosts are reachable |
+| 🔌 **Port Checker** | Verify if specific ports are open |
+| 🔐 **Password Generator** | Generate secure passwords with strength assessment |
+| 🎨 **ASCII Art** | Convert text to ASCII art using pyfiglet |
+| 🔄 **Text Reverser** | Reverse any text string |
+| #️⃣ **Hash Generator** | Generate MD5, SHA-1, SHA-256, SHA-512 hashes |
+| 📝 **Base64 Encode/Decode** | Encode and decode Base64 strings |
+| 📋 **JSON Validator** | Validate and pretty-print JSON |
+| 🔗 **URL Shortener** | Shorten long URLs using TinyURL |
+| 📦 **File Compressor** | Compress files/directories (zip, tar, gztar) |
+| 📺 **YouTube Downloader** | Download YouTube videos and audio |
 
-- Download and install Python from [python.org](https://www.python.org/downloads/).
-- During installation, check the box "Add Python to PATH."
+## 🚀 Quick Start
 
-### 2. Download Krypt0n
+### Prerequisites
 
-- Download the latest release of Krypt0n from [here](https://github.com/KiIlerDrift/Krypt0n/releases/latest).
+- Python 3.9 or higher
+- pip (Python package manager)
 
-### 3. Extract Krypt0n
+### Installation
 
-- Extract the downloaded ZIP file to a location of your choice.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/KiIlerDrift/Krypt0n.git
+   cd Krypt0n
+   ```
 
-### 4. Open a Terminal or Command Prompt
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-- Open a terminal or command prompt on your computer.
+3. **Run Krypton**
+   ```bash
+   python krypton.py
+   ```
 
-### 5. Navigate to the Extracted Folder
+## 📖 Usage Examples
 
-- Use the `cd` command to navigate to the folder where Krypt0n is extracted. For example:
+### DNS Lookup
+```
+Select option 1 → Enter domain (e.g., google.com)
+```
+Displays A records, MX records, and IP addresses using multiple lookup methods.
 
-  ```bash
-  cd path/to/extracted/folder
+### Password Generator
+```
+Select option 5 → Enter desired length (default: 16)
+```
+Generates a cryptographically secure password with strength assessment.
 
-### 6. Install Dependencies
+### QR Code Generator
+```
+Select option 2 → Enter text or URL → Choose colors
+```
+Creates a PNG image with your custom QR code.
 
-- pip install -r requirements.txt
+### YouTube Downloader
+```
+Select option 13 → Paste YouTube URL → Choose video or audio only
+```
+Downloads to the `downloads` folder.
 
-### 7. Run The Script
+## 📦 Dependencies
 
-- Either with [VS Code](https://code.visualstudio.com/) or through
-  ```bash
-  python Krypto.py
+| Package | Purpose |
+|---------|---------|
+| `rich` | Beautiful terminal output and formatting |
+| `requests` | HTTP requests for URL shortening |
+| `pytube` | YouTube video downloading |
+| `qrcode[pil]` | QR code generation |
+| `dnspython` | Advanced DNS lookups |
+| `pyfiglet` | ASCII art text generation |
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## ⚠️ Disclaimer
+
+This tool is provided for educational and legitimate utility purposes only. The developers are not responsible for any misuse of the software. Please use responsibly and in accordance with applicable laws and terms of service.
+
+---
+
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/KiIlerDrift">KillerDrift</a> & Contributors
+</p>
